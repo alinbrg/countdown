@@ -1,5 +1,5 @@
 function updateCountDown(){
-	const countDay = new Date("Oct 10, 2022 00:00:00").getTime();
+	const countDay = new Date("Oct 10, 2026 00:00:00").getTime();
 	const now = new Date().getTime();
 	const gap = countDay - now;
 
